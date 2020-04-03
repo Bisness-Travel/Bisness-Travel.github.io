@@ -1,0 +1,351 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+section {
+    min-height: 100vh;
+}
+
+.header {
+
+    padding-top: 54px;
+    background: url(/img/1.jpg.jpg) center center no-repeat;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu a {
+    margin-right: 100px;
+    text-decoration: none;
+    color: #2e2e2e;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 2.8px;
+    font-family: "Proxima Nova Lt";
+}
+
+.menu a:last-child {
+    margin-right: 0;
+}
+
+.header-text {
+    text-align: center;
+    margin-top: 240px;
+
+
+}
+
+.header-text p {
+    opacity: 1;
+    color: #2e2e2e;
+    font-family: "Proxima Nova - Regular";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 64px;
+}
+
+.header-text h1 {
+    opacity: 1;
+color:#2e2e2e;
+font-family: "Proxima Nova - Regular";
+font-size: 68px;
+font-weight: 400;
+line-height: 64px;
+}
+
+.header button {
+    padding: 20px 80px;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    margin-top: 20px;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2.52px;
+    transition: ease-in .25s all;
+}
+
+.header button:hover {
+    background-color: rgba(156, 156, 156, 0.438);
+
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    background: url(/img/tild3462-3235-4930-b166-366137313565__15928021.png);
+
+
+}
+.about-text span {
+    color:#acacac;
+    font-family: montserrat;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing:3.08px;
+    margin-left: 50px;
+}
+
+.about-text h2 {
+    margin-top: 32px;
+    margin-bottom: 50px;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 4.2px;
+}
+
+.about-text p {
+    margin-bottom: 54px;
+    color: #5b5b5c;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 3.08px;
+}
+
+.about-text button {
+    padding: 20px 80px;
+    cursor: pointer;
+    border: 2px solid black;
+    margin-top: 20px;
+    background-color: transparent;
+    color: black;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2.52px;
+    transition: ease-in .25s all;
+}
+
+.about-text button:hover {
+    background-color:black;
+    color:white;
+}
+
+.photos {
+    text-align: center;
+ background: url(/img/tild3462-3235-4930-b166-366137313565__15928021.png);
+
+
+}
+
+.photos h2 {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 4.2px;
+}
+
+.photos p  {
+    margin-bottom: 8px;
+    color: #5b5b5c;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 3.08px;
+}
+
+.compony-text {
+    text-align: center;
+
+}
+
+.compony-text h2 {
+    color: black;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 7.2px;
+    margin-bottom: 20px;
+}
+
+.compony-text p {
+    color: #5b5b5c;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 4.2px;
+    margin-bottom: 30px;
+}
+
+.compony {
+    background: url(/img/tild3462-3235-4930-b166-366137313565__15928021.png);
+
+
+}
+
+
+.compony-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.compony-block1 {
+    margin-right: 34px;
+}
+
+.compony-block h3 {
+    color: black;
+    font-size: 19px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.compony-block p {
+    color: #696969;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 3.8px;
+}
+
+.compony-block button {
+    padding: 20px 40px;
+    cursor: pointer;
+    border: 2px solid black;
+    margin-top: 20px;
+    background-color: transparent;
+    color: black;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2.52px;
+    transition: ease-in .25s all;
+}
+
+.compony-block button:hover {
+    background-color:black;
+    color:white;
+}
+
+.about-1 {
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ color: #696969;
+ background: url(/img/tild3462-3235-4930-b166-366137313565__15928021.png);
+
+}
+
+img {
+    margin-top: 20px;
+}
+
+.about-text-2 span {
+    color:#acacac;
+    font-family: montserrat;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing:3.08px;
+    margin-left: 50px;  
+}
+
+.about-text-2 h2 {
+    color: black;
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 7.2px;
+    margin-bottom: 20px;
+}
+
+.about-text-2 p {
+    color: #696969;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 3.8px;
+}
+
+.send {
+    display: flex;
+    padding: 80px;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.send-text {
+    margin-right: 111px;
+
+}
+
+.send-text h2 {
+    color:black;
+    font-size:30px;
+    font-weight: 500;
+    line-height: 41px;
+    text-transform: uppercase;
+    letter-spacing: 4.2px;
+}
+
+.send-text p {
+    color: #5b5b5c;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2.52px;
+}
+
+input {
+    margin-right: 5px;
+    background: transparent;
+    border: 2px solid #7a7a7a;
+    padding: 15px 20px;
+    color: #3a4047;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 3.08px; 
+}
+
+form button {
+    padding: 20px 40px;
+    cursor: pointer;
+    border: 2px solid black;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2.52px;
+    transition: ease-in .25s all;
+}
+
+form button:hover {
+    background-color:white;
+    color:black;
+}
+
+.fot {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 6.12px;
+}
+
+.fot-menu {
+    margin-bottom: 44px;
+}
+
+.fot-menu a {
+    margin-right: 55px;
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(94, 94, 94);
+}
+
+.fot-menu a:last-child {
+    margin-right: 0;
+}
+
+.fot-text {
+    margin-bottom: 20px;
+}
